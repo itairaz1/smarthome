@@ -9,3 +9,6 @@ Please feel free to ask question or add suggestions in Issues section, or even s
 
 ## Current scripts/automations
 1. Integrate between [Switcher](https://www.home-assistant.io/integrations/switcher_kis/) and [Google Calendar Event](https://www.home-assistant.io/integrations/calendar.google/) - [link](switcher/calendar-events)
+
+
+#### MORE SCRIPTS COMING SOON
