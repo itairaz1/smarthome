@@ -1,5 +1,5 @@
-# Calendar events
-Integration between your calendar events and switcher
+# Integrate Calendar events with switcher
+Integration between your google calendar events and [Switcher](https://www.home-assistant.io/integrations/switcher_kis/)
 This allows you: when you have event on a specific calendar (it can be shared between your family members), it will turn your boiler when the event starts for the same event duration.
 
 ## Disclaimer
@@ -17,7 +17,6 @@ Everything that you are doing is on your own risk.
 ## Steps
 1. (Optional) Add a calendar for boiler or use your main calendar. 
 2. Follow the Prerequisites section in https://www.home-assistant.io/integrations/calendar.google/
-Add Google Calendar Event integration in integrations page.
 3. Add the following to `configuration.yaml` and complete the credential based on the previous section:
     ```yaml
     google:
