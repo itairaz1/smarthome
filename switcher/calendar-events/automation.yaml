@@ -1,0 +1,10 @@
+- alias: Boiler event
+  trigger:
+    platform: state
+    entity_id: calendar.boiler_event # taken from device_id
+    to: 'on'
+  action:
+    - service: switcher_kis.turn_on_with_timer
+      data_template:
+        entity_id: switch.switcher_kis_boiler # replace with entity name of switcher
+        timer_minutes: "{{ ((strptime(state_attr('calendar.boiler_event','end_time'),'%Y-%m-%d %H:%M:%S') - now().replace(tzinfo=None)).total_seconds() / 60) | round(0, 'ceil') | int }}"
