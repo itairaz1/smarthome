@@ -1,6 +1,9 @@
 # Integrate Calendar events with switcher
 Integration between your google calendar events and [Switcher](https://www.home-assistant.io/integrations/switcher_kis/)
-This allows you: when you have event on a specific calendar (it can be shared between your family members), it will turn your boiler when the event starts for the same event duration.
+
+This integration will allow you to - 
+
+Adding event or recurrent event with the name "boiler" (can be change) to your Google calendar or shared Google calendar (that owned by you) will start the boiler when the event starts for the same duration of the event.
 
 ## Disclaimer
 I don't have any relation to switcher, switcher integration with HA, home assistant or anything in this area.
@@ -13,6 +16,10 @@ Everything that you are doing is on your own risk.
 * Working integration between switcher and home assistant
 * Access to home assistant file system (like Samba share)
 * Basic knowledge in yaml
+
+## Limitations
+* Event's duration is support up to 90m
+* Edit the event (like duration) when the event already started is not supported
 
 ## Steps
 1. (Optional) Add a calendar for boiler or use your main calendar. 
@@ -51,7 +58,3 @@ Everything that you are doing is on your own risk.
 5. Since switcher integration has a bug that doesn't allow automation, please download [switcher_kis directory](switcher_kis) and place it in `custom_components` directory
 6. Copy the content of [automation.yaml](automation.yaml) to your `automation.yaml` file and replace your switcher entity id
 7. Restart home assistant and test it
-
-## Limitations
-* Event's duration is support up to 90m
-* Edit the event (like duration) when the event already started is not supported
