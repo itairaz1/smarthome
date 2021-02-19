@@ -55,6 +55,6 @@ Everything that you are doing is at your own risk.
         track: true
         search: 'boiler' # <-- the content of the event
     ```
-5. Since switcher integration has a bug that doesn't allow automation, please download [switcher_kis directory](switcher_kis) and place it in `custom_components` directory
+5. Since switcher integration has a bug that doesn't allow automation, please download the copy with a fix from [switcher_kis directory](switcher_kis) and place it in `custom_components` directory
 6. Copy the content of [automation.yaml](automation.yaml) to your `automation.yaml` file and replace your switcher entity id
 7. Restart home assistant and test it
