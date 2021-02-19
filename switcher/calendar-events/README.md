@@ -3,11 +3,11 @@ Integration between your google calendar events and [Switcher](https://www.home-
 
 This integration will allow you to - 
 
-Adding event or recurrent event with the name "boiler" (can be change) to your Google calendar or shared Google calendar (that owned by you) will start the boiler when the event starts for the same duration of the event.
+Add events or recurrent events with the name "boiler" (can be change) to your Google calendar or shared Google calendar (that owned by you), and it will start the boiler when the event starts for the same duration of the event.
 
-## Disclaimer
+## Disclaimers
 I don't have any relation to switcher, switcher integration with HA, home assistant or anything in this area.
-Everything that you are doing is on your own risk.
+Everything that you are doing is at your own risk.
 
 ## Prerequisites
 * Switcher device

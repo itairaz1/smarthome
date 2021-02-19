@@ -1,5 +1,5 @@
 # My smart home and home assistant scripts
-Hi, my name is Itai, and as many people I got addicted to build a DIY smart home.
+Hi, my name is Itai, I'm a developer, and as many people I also got addicted to build a DIY smart home.
 
 I've decided to share some of my scripts and automations so everyone can enjoy them.
 
